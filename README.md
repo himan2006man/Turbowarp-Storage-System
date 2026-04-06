@@ -95,7 +95,6 @@ del [filename]                 Delete a file
 rename [filename] [newname]    Rename a file
 dir                            List all active files
 free                           Show remaining bytes
-defrag                         Reclaim deleted file space
 download [filename]            Export file to your device
 upload                         Import a plain text file from your device
 format                         Wipe the entire disk (asks for confirmation)
@@ -175,7 +174,6 @@ Changing `BYTES_PER_ITEM` scales the entire disk automatically:
 - 16MB total combined storage for all files
 - No folders or directories — flat filesystem only
 - No file overwrite — delete then rewrite to update a file
-- Deleted space not reclaimed until `defrag` is run
 - Upload does not auto-detect filename — you will be prompted to enter one
 - Binary files not supported
 - Performance scales with file size due to Scratch's string operations
